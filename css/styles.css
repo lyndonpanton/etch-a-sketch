@@ -25,14 +25,17 @@ main {
     justify-content: center;
     align-items: center;
 
-    width: 256px;
+    /* width: 960px;
+    height: 960px; */
+    width: 800px;
+    height: 800px;
 }
 
 .square {
     border: 1px solid black;
     /* border-radius: ; */
-    width: 16px;
-    height: 16px;
+    /* width: 16px;
+    height: 16px; */
 }
 
 .square-filled {
