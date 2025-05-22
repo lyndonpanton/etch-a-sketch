@@ -20,9 +20,12 @@ function createGrid(length) {
 }
 
 function enterSquare(e) {
-    if (!e.target.classList.contains("square-filled")) {
-        e.target.classList.add("square-filled");
-    }
+    const redValue = Math.floor(Math.random() * 256);
+    const greenValue = Math.floor(Math.random() * 256);
+    const blueValue = Math.floor(Math.random() * 256);
+    const colour = "rgba(" + redValue + ", " + greenValue + ", " + blueValue + ", 1)";
+
+    e.target.style.background = colour;
 }
 
 function leaveSquare(e) {
