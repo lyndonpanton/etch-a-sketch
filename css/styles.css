@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+
+    /* font-family:  */
+    /* font-size:  */
+    /* font-weight:  */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 256px;
+}
+
+.square {
+    border: 1px solid black;
+    /* border-radius: ; */
+    width: 16px;
+    height: 16px;
+}
